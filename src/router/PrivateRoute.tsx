@@ -6,7 +6,7 @@ import {
   RouteProps,
 } from "react-router-dom";
 import api from "api";
-import { useAuth } from "hooks/auth";
+import { useAuth } from "../../hooks/auth";
 import { Header } from "Components";
 
 interface PrivateRouteParams extends RouteProps {
